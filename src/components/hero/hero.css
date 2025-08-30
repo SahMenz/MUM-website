@@ -1,0 +1,15 @@
+.spacing-50-adjusted{
+    padding: 20px 77px;
+}
+.wavyBackground{
+    background-image: url(../../assets/images/wavyLine.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
+@media (max-width: 768px) {
+  .spacing-50-adjusted {
+    padding: 10px 20px;
+  }
+}

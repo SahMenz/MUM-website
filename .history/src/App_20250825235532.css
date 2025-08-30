@@ -1,0 +1,45 @@
+/* BACKGROUND */
+.bg-ff4 {
+  background-color: #fff4f4;
+}
+.bg-ff {
+  background-color: #ffffff;
+}
+.bg-00 {
+  background-color: #000000;
+}
+.bg-fa {
+  background-color: #fa0808;
+}
+.bg-e4 {
+  background-color: #e4e4e4;
+}
+.bg-d3 {
+  background-color: #d3d3d3;
+}
+.bg-ffd {
+  background-color: #ffdede;
+}
+.bg-trans {
+  background-color: transparent;
+}
+
+/* TEXT COLOR */
+.txt-00 {
+  color: #000000;
+}
+.txt-ff {
+  color: #ffffff;
+}
+.txt-f8 {
+  color: #f8edd9;
+}
+.txt-f5 {
+  color: #f5ffff;
+}
+.txt-14 {
+  color: #141416;
+}
+.txt-73 {
+  color: #737373;
+}
