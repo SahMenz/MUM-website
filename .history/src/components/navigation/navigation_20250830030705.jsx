@@ -93,7 +93,7 @@ function Navigation({
             rel="noopener noreferrer"
           >
             <button
-              className="d-none d-lg-flex align-items-center"
+              className="d-flex align-items-center"
               style={{
                 backgroundColor: "#FA0808",
                 borderRadius: "40px",

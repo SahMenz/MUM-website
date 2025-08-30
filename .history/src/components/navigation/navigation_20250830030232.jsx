@@ -85,15 +85,14 @@ function Navigation({
           >
             FAQs
           </button>
-        </div>
-        <a
+          <a
             style={{ textDecoration: "none" }}
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
           >
             <button
-              className="d-none d-lg-flex align-items-center"
+              className="d-flex align-items-center"
               style={{
                 backgroundColor: "#FA0808",
                 borderRadius: "40px",
@@ -104,6 +103,7 @@ function Navigation({
               <p className="mb-0 fw-500">Contact us</p>
             </button>
           </a>
+        </div>
         <div
           onClick={handleShow}
           className="d-lg-none"

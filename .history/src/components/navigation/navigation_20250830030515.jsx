@@ -85,15 +85,14 @@ function Navigation({
           >
             FAQs
           </button>
-        </div>
-        <a
+          <a
             style={{ textDecoration: "none" }}
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
           >
             <button
-              className="d-none d-lg-flex align-items-center"
+              className="d-flex align-items-center"
               style={{
                 backgroundColor: "#FA0808",
                 borderRadius: "40px",
@@ -104,6 +103,7 @@ function Navigation({
               <p className="mb-0 fw-500">Contact us</p>
             </button>
           </a>
+        </div>
         <div
           onClick={handleShow}
           className="d-lg-none"
@@ -265,7 +265,7 @@ export default Navigation;
 //     <div className="spacing-50 bg-ff4 d-flex align-items-center justify-content-center">
 //       <div className="d-flex justify-content-between align-items-center col-12">
 //         <img src={logoAndName} />
-//         <div className="d-flex align-items-center col-5 justify-content-between d-lg-flex d-none">
+//         <div className="d-flex align-items-center col-5 justify-content-center d-lg-flex d-none">
 //           <NavLink
 //             to="/"
 //             style={({ isActive }) => ({

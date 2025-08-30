@@ -1,17 +1,14 @@
 {
-  "name": "MUM-website",
-  "version": "0.1.0",
+  "name": "mum",
   "private": true,
-  "homepage": "https://SahMenz.github.io/MUM-website",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.1.1",

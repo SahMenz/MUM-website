@@ -40,60 +40,39 @@ function Navigation({
           <button
             onClick={onAboutClick}
             className="text-decoration-none fw-600 fs-16"
-            style={{
-              color: "#737373",
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-            }}
+            style={{ color: "#737373", background: "none", border: "none", cursor: "pointer" }}
           >
             About
           </button>
           <button
             onClick={onFeaturesClick}
             className="text-decoration-none fw-600 fs-16"
-            style={{
-              color: "#737373",
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-            }}
+            style={{ color: "#737373", background: "none", border: "none", cursor: "pointer" }}
           >
             Features
           </button>
           <button
             onClick={onHowItWorkClick}
             className="text-decoration-none fw-600 fs-16"
-            style={{
-              color: "#737373",
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-            }}
+            style={{ color: "#737373", background: "none", border: "none", cursor: "pointer" }}
           >
             How it works
           </button>
           <button
             onClick={onFaqsClick}
             className="text-decoration-none fw-600 fs-16"
-            style={{
-              color: "#737373",
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-            }}
+            style={{ color: "#737373", background: "none", border: "none", cursor: "pointer" }}
           >
             FAQs
           </button>
-        </div>
-        <a
+          <a
             style={{ textDecoration: "none" }}
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
           >
             <button
-              className="d-none d-lg-flex align-items-center"
+              className="d-flex align-items-center"
               style={{
                 backgroundColor: "#FA0808",
                 borderRadius: "40px",
@@ -104,6 +83,7 @@ function Navigation({
               <p className="mb-0 fw-500">Contact us</p>
             </button>
           </a>
+        </div>
         <div
           onClick={handleShow}
           className="d-lg-none"
@@ -158,12 +138,7 @@ function Navigation({
                 <button
                   onClick={onAboutClick}
                   className="hovering txt-16 lh-19 fw-600 mb-3 text-decoration-none txt-f3"
-                  style={{
-                    color: "#737373",
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                  }}
+                  style={{ color: "#737373", background: "none", border: "none", cursor: "pointer" }}
                   end
                 >
                   About
@@ -171,12 +146,7 @@ function Navigation({
                 <button
                   onClick={onFeaturesClick}
                   className="hovering txt-16 lh-19 fw-600 mb-3 text-decoration-none txt-f3"
-                  style={{
-                    color: "#737373",
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                  }}
+                  style={{ color: "#737373", background: "none", border: "none", cursor: "pointer" }}
                   end
                 >
                   Features
@@ -184,12 +154,7 @@ function Navigation({
                 <button
                   onClick={onHowItWorkClick}
                   className="hovering txt-16 lh-19 fw-600 mb-3 text-decoration-none txt-f3"
-                  style={{
-                    color: "#737373",
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                  }}
+                  style={{ color: "#737373", background: "none", border: "none", cursor: "pointer" }}
                   end
                 >
                   How it works
@@ -197,12 +162,7 @@ function Navigation({
                 <button
                   onClick={onFaqsClick}
                   className="hovering txt-16 lh-19 fw-600 mb-3 text-decoration-none txt-f3"
-                  style={{
-                    color: "#737373",
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                  }}
+                  style={{ color: "#737373", background: "none", border: "none", cursor: "pointer" }}
                   end
                 >
                   FAQs
@@ -230,11 +190,18 @@ function Navigation({
           </Offcanvas.Body>
         </Offcanvas>
       </div>
-    </div>
+      </div>
+      
   );
 }
 
 export default Navigation;
+
+
+
+
+
+
 
 // import { Link } from "react-router-dom";
 // import logoAndName from "../../assets/images/logoAndName.png";
