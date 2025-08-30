@@ -1,0 +1,8 @@
+.spacing-50-adjusted{
+    padding: 20px 77px;
+}
+@media (max-width: 768px) {
+  .spacing-50-adjusted {
+    padding: 25px 20px;
+  }
+}
