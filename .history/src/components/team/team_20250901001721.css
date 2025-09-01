@@ -1,0 +1,13 @@
+.distance{
+    background-image: url(../../assets/images/open&Distance.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}

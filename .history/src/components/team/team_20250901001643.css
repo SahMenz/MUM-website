@@ -1,0 +1,8 @@
+.distance{
+    background-image: url(../../assets/images/open&Distance.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 20px;
+}
