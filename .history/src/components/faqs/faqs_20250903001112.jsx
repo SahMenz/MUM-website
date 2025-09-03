@@ -10,7 +10,7 @@ function Faq() {
   const [open4, setOpen4] = useState(false);
 
   return (
-    <div className="mt-5 txt-00 pt-5">
+    <div className="mt-5 txt-00 mt-5x">
       <div style={{ maxWidth: "454px", margin: "auto", textAlign: "center" }}>
         <div className="d-flex align-items-center justify-content-center">
           <div

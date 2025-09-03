@@ -6,7 +6,7 @@ import img4 from "../../assets/images/img4.png";
 import "./team.css";
 function Team() {
   return (
-    <div className="spacing-50 my-5 ">
+    <div className="spacing-50 my-5 pb-45">
       <div className="distance col-12 p-3 p-lg-4">
         <div
           className="txt-f5 d-flex flex-column p-3"
