@@ -14,16 +14,16 @@ function About() {
           campus just to find the one restroom you know.
         </div>
       </div>
-      <div className="d-flex gap-2 gap-md-3 gap-lg-5 mt-5">
+      <div className="d-flex gap-3 gap-lg-5 mt-5">
         <div>
-          <img src={forFreshers} style={{ width: "100%", minWidth:"110px" }} />
+          <img src={forFreshers} style={{ width: "100%", minWidth:"150px" }} />
         </div>
-        <div className="d-flex gap-2 gap-md-3 gap-lg-5 flex-column">
+        <div className="d-flex gap-3 gap-lg-5 flex-column">
           <div>
-            <img src={forReturningStudent} style={{ width: "100%" }} />
+            <img src={forReturningStudent} style={{ width: "100%", minWidth:"150px" }} />
           </div>
           <div>
-            <img src={forVisitors} style={{ width: "100%" }} />
+            <img src={forVisitors} style={{ width: "100%", minWidth:"250px" }} />
           </div>
         </div>
       </div>

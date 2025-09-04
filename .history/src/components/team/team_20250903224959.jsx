@@ -50,34 +50,21 @@ function Team() {
         </div>
       </div>
       <div className="mt-5">
-        <div className="d-flex align-items-center gap-5 justify-content-center flex-column flex-lg-row justify-content-lg-between">
+        <div className="d-flex align-items-center gap-5 justify-content-center flex-column flex-lg-row justify-content-lg-between" >
           <img src={img1} />
-          <div
-            className="text-center "
-            style={{
-              maxWidth: "661px",
-              minWidth: "300px",
-              top: "40px",
-              position: "relative",
-            }}
-          >
-            <div className="fs-56 fw-600 mt-5">
-              The Team Behind the Technology.
-            </div>{" "}
+          <div className="text-center " style={{maxWidth:"661px", minWidth:"300px", top:"40px", position:"relative" }}>
+            <div className="fs-56 fw-600 mt-5">The Team Behind the Technology.</div>{" "}
             <div className="fs-19 fw-400 mt-4">
               We’re Control Genesis — students and creators building tools to
               make campus life easier. We face the same struggles, so we set out
               to solve them.
             </div>
           </div>
-          <img src={img2} className="mt-4 mt-lg-0" />
+          <img src={img2} className="mt-4 mt-lg-0"/>
         </div>
-        <div
-          className="d-flex mt-5 align-items-center gap-5 justify-content-center flex-column flex-md-row justify-content-md-between"
-          style={{ top: "50px", position: "relative" }}
-        >
+        <div className="d-flex mt-5 align-items-center gap-5 justify-content-center flex-column flex-md-row justify-content-md-between"style={{top:"50px", position:"relative"}}>
           <img src={img3} />
-          <img src={img4} style={{ top: "50px", position: "relative" }} />
+          <img src={img4} style={{top:"50px", position:"relative"}}/>
           <img src={img5} />
         </div>
       </div>
