@@ -16,7 +16,7 @@ function About() {
       </div>
       <div className="d-flex flex-column flex-md-row gap-2 gap-md-3 gap-lg-5 mt-5">
         <div>
-          <img src={forFreshers} style={{ width: "100%" }} />
+          <img src={forFreshers} style={{ width: "100%", minWidth:"110px" }} />
         </div>
         <div className="d-flex gap-2 gap-md-3 gap-lg-5 flex-column">
           <div>

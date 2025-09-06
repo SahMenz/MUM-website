@@ -66,7 +66,7 @@ function Footer({
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="fs-16 fw-500 txt-ff">Contact Support</div>
+              <div className="fs-16 fw-500">Contact Support</div>
             </a>
           </div>
         </div>
